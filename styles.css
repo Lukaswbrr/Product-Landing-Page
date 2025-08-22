@@ -1,0 +1,307 @@
+/* google fonts */
+.comic-relief-regular {
+  font-family: "Comic Relief", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.comic-relief-bold {
+  font-family: "Comic Relief", system-ui;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* --- */
+
+
+p {
+  font-family: "Comic Relief", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background: repeat url("https://file.garden/Z9WlfxlbKAPc8Xj8/freecodecamp/product%20landing%20page/cirno%20background.jpg");
+}
+
+#features, #images, #reviews, #prices  {
+  margin-top: 100px;
+}
+
+#nav-bar {
+  margin-left: -50px;
+}
+
+.feature-item {
+  backdrop-filter: blur(3px);
+  background-color: transparent;
+  border: 1px solid rgb(25, 45, 174);
+  border-radius: 10px;
+  text-align: center;
+  flex: 1;
+  padding: 0 50px;
+  position: relative;
+  box-sizing: border;
+  display: flex;
+  flex-direction: column;
+}
+
+.review {
+  backdrop-filter: blur(3px);
+  background-color: transparent;
+  border: 1px solid rgb(25, 45, 174);
+  border-radius: 10px;
+  text-align: center;
+  padding: 0 50px;
+  flex: 1;
+  box-sizing: border;
+  display: flex;
+  flex-direction: column;
+}
+
+.feature-item > #feature-head {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 50px;
+  color: rgb(19, 212, 255);
+  text-shadow: 1px 1px 3px white,
+    0px 4px 3px rgb(255, 77, 77),
+    -1px -3px 3px rgb(52, 56, 169);
+}
+
+.feature-item > p {
+  color: white;
+  text-shadow: 1px 1px 0px black,
+    2px 1px 0px black;
+}
+
+
+#feature-container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+#images > img {
+  display: inline;
+  width: 15%;
+  margin-left: 30px;
+  border: 2px solid blue;
+  border-radius: 20px;
+}
+
+#terms {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1250px;
+  height: 750px;
+}
+
+.review-desc {
+  flex-grow: 1;
+}
+
+.review-rating {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(red, blue);
+}
+
+#video-container {
+  margin-top: 3%;
+  display: flex;
+  justify-content: center;
+}
+
+#video {
+  width: 50%;
+  max-width: 700px;
+}
+
+#header-img {
+  display: block;
+}
+
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-height: 75px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: repeat center/100% url("https://file.garden/Z9WlfxlbKAPc8Xj8/freecodecamp/product%20landing%20page/ice%20backgroun.jpg");
+  z-index: 10;
+  flex-wrap: wrap;
+}
+
+#header-title {
+  display: flex;
+}
+
+#cirno-face {
+  display: block;
+  margin-top: 750px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#header-text {
+  display: inline;
+  margin-left: 300px;
+  width: 250px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  text-shadow: 2px 2px 2px blue;
+}
+
+li {
+  list-style: none;
+}
+
+
+div > header:not(.username) {
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 2px blue;
+}
+
+.paragraph-desc {
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 0px black;
+}
+
+nav > ul {
+  width: 40vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
+#overlay-snow {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  pointer-events: none;
+}
+
+#form {
+  display: flex;
+  justify-content: center;
+}
+
+.reviews-container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+}
+
+.review-head {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.username {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 50px;
+  white-space: nowrap;
+}
+
+#userpic {
+  position: relative;
+  left: -10px;
+  top: 25px;
+  height: 50px;
+}
+
+#yuji-name {
+  color: rgb(244, 65, 190);
+  text-shadow: 1px 1px 5px black,
+    2px 10px 1px white;
+}
+
+#emiya-name {
+  color: rgb(255, 168, 45);
+  text-shadow: 1px 1px 10px rgb(251, 93, 84),
+    2px 1px 1px rgb(0, 0, 0);
+}
+
+#goku-name {
+  color: rgb(247, 240, 12);
+  text-shadow: 1px 1px 5px rgb(255, 99, 2),
+    5px 2px 15px rgb(82, 180, 255);
+}
+
+.nav-link {
+  color: white;
+  text-shadow: 2px 2px 2px blue;
+  text-decoration: none;
+}
+
+/* Media queries */
+@media (max-width: 1150px) {
+  #feature-container  {
+    flex-direction: column;
+  }
+
+  .reviews-container {
+    flex-direction: column;
+  }
+
+  #cirno-face {
+    margin: auto;
+    width: 500;
+  }
+}
+
+@media (max-width: 1200px) {
+  #header-img {
+    margin-top: 15px;
+    width: 100%;
+    position: relative;
+    display: block;
+  }
+  
+  #header {
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  #header-title {
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  #header-text {
+    margin-left: 0px;
+    width: 100%;
+    font-size: 50px;
+  }
+
+  #nav-bar {
+    margin: auto;
+  }
+
+  nav > ul {
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
